@@ -1,0 +1,32 @@
+node_modules
+/dist
+/pack
+.vscode/settings.json
+.idea
+
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.vite-inspect
+
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+
+# Environments
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
